@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rizky Aziz — Portofolio</title>
+  <meta name="description" content="Rizky Aziz, siswa SMK Telkom Sidoarjo jurusan Sistem Informasi Jaringan Aplikasi (SIJA). Membangun proyek web, AI/ML, dan IoT.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+<body>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#top" class="brand">
+        <img src="img/logo.png" alt="">
+        <span>Rizky Aziz</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#skills">Keahlian</a></li>
+          <li><a href="#projek">Proyek</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="mailto:rizkyaziz2022@gmail.com" class="btn-mail">rizkyaziz2022@gmail.com</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">sija · full-stack &amp; ai</p>
+        <h1>Rizky Aziz</h1>
+        <p class="role">Siswa SMK Telkom Sidoarjo — Sistem Informasi Jaringan Aplikasi</p>
+        <p class="desc">Saya belajar menghubungkan web dan kecerdasan buatan jadi sistem yang benar-benar dipakai orang. Beberapa di antaranya sudah saya deploy dan dipakai secara nyata.</p>
+        <div class="hero-ctas">
+          <a href="#projek" class="btn btn-primary">Lihat Proyek</a>
+          <a href="#kontak" class="btn btn-ghost">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 300 300">
+          <line class="node-line" x1="150" y1="150" x2="55" y2="95" />
+          <line class="node-line" x1="150" y1="150" x2="245" y2="95" />
+          <line class="node-line" x1="150" y1="150" x2="150" y2="255" />
+          <circle class="node-dot node-pulse" cx="55" cy="95" r="5"></circle>
+          <circle class="node-dot node-pulse" cx="245" cy="95" r="5"></circle>
+          <circle class="node-dot node-pulse" cx="150" cy="255" r="5"></circle>
+          <text class="node-label" x="24" y="80">web</text>
+          <text class="node-label" x="222" y="80">ai/ml</text>
+          <text class="node-label" x="128" y="278">data</text>
+        </svg>
+        <div class="hero-photo">
+          <img src="img/foto-aziz.png" alt="Foto Rizky Aziz">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap about-grid">
+      <div class="about-text">
+        <p class="eyebrow">tentang saya</p>
+        <h2>Masih kelas 11, tapi sudah ikut bikin sistem yang jalan sendiri</h2>
+        <p>Saya Rizky Aziz, saat ini duduk di kelas XI SIJA 2, SMK Telkom Sidoarjo, jurusan Sistem Informasi Jaringan Aplikasi. Saya tertarik membangun aplikasi — mulai dari web sampai sistem berbasis kecerdasan buatan.</p>
+        <p>Selain proyek kelas, saya juga mengerjakan proyek AI/ML lewat program IDCamp — mulai dari fine-tuning model bahasa sampai membangun pipeline RAG — dan proyek pribadi seperti CapWriter yang sudah saya deploy dan bisa dicoba langsung.</p>
+        <ul class="fact-list">
+          <li><strong>Sekolah</strong> SMK Telkom Sidoarjo — SIJA</li>
+          <li><strong>Fokus</strong> Web development, AI/ML</li>
+          <li><strong>Sedang belajar</strong> RAG pipeline &amp; fine-tuning model</li>
+        </ul>
+      </div>
+      <div class="cert-list">
+        <p class="eyebrow">sertifikat</p>
+        <a class="cert-card" href="certs/dicoding-generative-ai-llm.pdf" target="_blank" rel="noopener">
+          <div class="cert-badge">D</div>
+          <div>
+            <h4>Pengembangan Generative AI berbasis LLM</h4>
+            <span>Dicoding · Juni 2026</span>
+          </div>
+        </a>
+        <a class="cert-card" href="certs/dicoding-fundamental-generative-ai.pdf" target="_blank" rel="noopener">
+          <div class="cert-badge">D</div>
+          <div>
+            <h4>Belajar Fundamental Generative AI</h4>
+            <span>Dicoding · April 2026</span>
+          </div>
+        </a>
+        <a class="cert-card" href="certs/dicoding-fundamental-deep-learning.pdf" target="_blank" rel="noopener">
+          <div class="cert-badge">D</div>
+          <div>
+            <h4>Belajar Fundamental Deep Learning</h4>
+            <span>Dicoding · Maret 2026</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">keahlian</p>
+        <h2>Stack yang saya pakai</h2>
+        <p>Alat dan bahasa yang saya gunakan langsung di proyek-proyek nyata, bukan cuma teori.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3><span class="dot"></span>Web &amp; Backend</h3>
+          <div class="tag-row">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3><span class="dot"></span>AI / Machine Learning</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">Streamlit</span>
+            <span class="tag">Google GenAI SDK</span>
+            <span class="tag">ChromaDB</span>
+            <span class="tag">QLoRA / Fine-tuning</span>
+            <span class="tag">RAG Pipeline</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3><span class="dot"></span>Infra &amp; Tools</h3>
+          <div class="tag-row">
+            <span class="tag">Supabase</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Google Colab</span>
+            <span class="tag">Kaggle</span>
+            <span class="tag">Hugging Face</span>
+            <span class="tag">WandB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projek">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">proyek</p>
+        <h2>Proyek Unggulan</h2>
+        <p>Proyek yang sudah selesai dibangun dan/atau bisa dicoba langsung.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-thumb thumb-1">
+            <span class="project-status">Live</span>
+            <i class="fas fa-pen-fancy"></i>
+          </div>
+          <div class="project-body">
+            <h3>CapWriter</h3>
+            <p>Aplikasi Streamlit untuk membuat caption media sosial otomatis (Instagram, TikTok, Shopee/Tokopedia) khusus UMKM Indonesia, memakai Google GenAI SDK dan Supabase untuk riwayat pengguna.</p>
+            <div class="project-links">
+              <a href="https://capwriter-umkm.streamlit.app" target="_blank" rel="noopener">Coba Aplikasi ↗</a>
+              <a href="https://github.com/R-Aziz-10/capwriter" aria-disabled="true">Repo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-2">
+            <span class="project-status">Live</span>
+            <i class="fas fa-shirt"></i>
+          </div>
+          <div class="project-body">
+            <h3>Sumber Berkah Laundry</h3>
+            <p>Aplikasi web manajemen laundry berbasis PHP &amp; MySQL: login berbasis peran (admin/pengguna), manajemen pesanan, katalog harga, dan sistem testimoni.</p>
+            <div class="project-links">
+              <a href="https://sumberberkah.infinityfreeapp.com" target="_blank" rel="noopener">Coba Aplikasi ↗</a>
+              <a href="https://github.com/R-Aziz-10/project-ukl" aria-disabled="true">Repo</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-3">
+            <span class="project-status">Selesai</span>
+            <i class="fas fa-diagram-project"></i>
+          </div>
+          <div class="project-body">
+            <h3>RAG Pipeline Dokumen Hukum</h3>
+            <p>Pipeline RAG untuk dokumen hukum Indonesia memakai embedding BAAI/bge-m3, ChromaDB dengan Parent-Child Retriever, ensemble BM25 + semantic search, cross-encoder reranker, dan HyDE. Disetujui organizer PGABL.</p>
+            <div class="project-links">
+              <a href="https://drive.google.com/drive/folders/13J4EGmLra2ZMZC5uTyzfcfWjdDdAVKm_?usp=sharing" target="_blank" rel="noopener">Lihat Proyek ↗</a>
+              <a href="#" aria-disabled="true">Repo (segera)</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <p class="subsection-label">proyek belajar lainnya</p>
+      <div class="mini-grid">
+        <div class="mini-card">
+          <h4>Aplikasi Chat AI</h4>
+          <p>Aplikasi chat berbasis Python, Streamlit, dan Google AI Studio API — masih menyempurnakan fitur feedback dan human-in-the-loop untuk validasi jawaban.</p>
+        </div>
+        <div class="mini-card">
+          <h4>Fine-tuning Qwen2.5</h4>
+          <p>Fine-tuning model Qwen2.5-1.5B-Instruct dengan QLoRA 4-bit, dijalankan di Colab &amp; Kaggle dengan monitoring WandB. Model terbaik sudah diunggah ke Hugging Face.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="kontak" class="alt">
+    <div class="contact-section">
+      <div class="section-head">
+        <p class="eyebrow" style="color:#F6D9A8">kontak</p>
+        <h2>Punya proyek atau ingin berdiskusi?</h2>
+        <p>Terbuka untuk kolaborasi, magang, atau sekadar ngobrol soal web dan AI.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span>Email</span>
+          <a href="mailto:rizkyaziz2022@gmail.com">rizkyaziz2022@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span>Telepon / WhatsApp</span>
+          <a href="tel:+6285656163398">+62 856-5616-3398</a>
+        </div>
+      </div>
+      <div class="contact-social">
+        <a href="https://www.instagram.com/r_aziz10?igsh=MTZ1dDltNXg0Nm53Zg==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/@rizkyaziz-xh3pt?si=xRaL0tw-3JN0p2ak" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/in/rizky-aziz-putra/" target="_blank" rel="noopener" aria-label="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/R-Aziz-10" target="_blank" rel="noopener" aria-label="github"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Rizky Aziz — dibuat dengan HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
